@@ -318,6 +318,7 @@ static int const RCTVideoUnset = -1;
       if (playableDuration > 0) {
         return [NSNumber numberWithFloat:playableDuration];
       }
+    }
   }
   return [NSNumber numberWithInteger:0];
 }
